@@ -15,8 +15,8 @@ if ( ! empty($_POST['name']) && ! empty($_POST['email']) && ! empty($_POST['mess
 
     // When email is valid, add the message to table messages (you can find the sql in keukenboer.sql)
 
-//    $mysqli = new mysqli('localhost', 'root', 'root', 'keukenboer');
-    $mysqli = new mysqli('keukenboer.mysql.database.azure.com', 'keukenboer', 'jhu*ka!QQ23', 'keukenboer');
+    $mysqli = new mysqli('mysql', 'root', 'root', 'keukenboer');
+//    $mysqli = new mysqli('keukenboer.mysql.database.azure.com', 'keukenboer', 'jhu*ka!QQ23', 'keukenboer');
     $sql = "INSERT INTO message(name, email, message) VALUES (?, ?, ?)";
     $stmt = $mysqli->prepare($sql);
     $stmt->bind_param("sss", $name, $email, $message);
