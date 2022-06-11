@@ -53,7 +53,7 @@ jQuery(document).ready(function() {
       closeMenu();     
     });
 
-    $("html").click(function(e) {
+    $("html").click(function(_e) {
       closeMenu();
     });
 

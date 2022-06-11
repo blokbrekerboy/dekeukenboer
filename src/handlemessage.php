@@ -22,6 +22,7 @@ if ( ! empty($_POST['name']) && ! empty($_POST['email']) && ! empty($_POST['mess
     $stmt->bind_param("sss", $name, $email, $message);
     if ($stmt->execute()){
         echo "Dank voor uw bericht";
+
     }
 
 }

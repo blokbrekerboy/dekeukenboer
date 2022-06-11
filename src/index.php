@@ -19,16 +19,16 @@
                 <div class="collapse navbar-collapse single-page-nav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="#section-1"><span class="icn"><i class="fas fa-2x fa-air-freshener"></i></span>Our Company</a>
+                            <a class="nav-link" href="#section-1"><span class="icn"><em class="fas fa-2x fa-air-freshener"></em></span>Our Company</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#section-2"><span class="icn"><i class="fab fa-2x fa-battle-net"></i></span>Our Work</a>
+                            <a class="nav-link" href="#section-2"><span class="icn"><em class="fab fa-2x fa-battle-net"></em></span>Our Work</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#section-3"><span class="icn"><i class="far fa-2x fa-images"></i></span>Gallery</a>
+                            <a class="nav-link" href="#section-3"><span class="icn"><em class="far fa-2x fa-images"></em></span>Gallery</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#section-4"><span class="icn"><i class="far fa-2x fa-comments"></i></span>Contact</a>
+                            <a class="nav-link" href="#section-4"><span class="icn"><em class="far fa-2x fa-comments"></em></span>Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -47,7 +47,7 @@
             <div class="banner-section section parallax-window" data-parallax="scroll" data-image-src="img/section-1-bg.jpg" id="section-1">
                 <div class="container">
                     <div class="item">
-                        <div class="bg-blue-transparent logo-fa"><span><i class="fas fa-2x fa-atom"></i></span>De Keukenboer</div>
+                        <div class="bg-blue-transparent logo-fa"><span><em class="fas fa-2x fa-atom"></em></span>De Keukenboer</div>
                         <div class="bg-blue-transparent simple"><p>Simple and cheap but amazing!</p></div>
                     </div>
                 </div>
@@ -58,21 +58,21 @@
                     <div class="row">
                         <div class="item col-md-4">
                             <div class="tm-work-item-inner">
-                                <div class="icn"><i class="fas fa-2x fa-icons"></i></div>
+                                <div class="icn"><em class="fas fa-2x fa-icons"></em></div>
                                 <h3>1 Idee</h3>
                                 <p>Teken uw droomkeuken in onze eenvoudige ontwerptool</p>
                             </div>
                         </div>
                         <div class="item col-md-4 one">
                             <div class="tm-work-item-inner">
-                                <div class="icn"><i class="fas fa-2x fa-tools"></i></div>
+                                <div class="icn"><em class="fas fa-2x fa-tools"></em></div>
                                 <h3>2 Detailering</h3>
                                 <p>Maak een afspraak met een van onze mensen om uw ontwerp tot in detail uit te werken</p>
                             </div>
                         </div>
                         <div class="item col-md-4 two">
                             <div class="tm-work-item-inner">
-                                <div class="icn"><i class="fab fa-2x fa-phoenix-framework"></i></div>
+                                <div class="icn"><em class="fab fa-2x fa-phoenix-framework"></em></div>
                                 <h3>3 Uitvoering</h3>
                                 <p>Na uw goedkeuring starten wij met de uitvoering. Uiteraard wordt de keuken ter plekke geïnstalleerd.</p>
                             </div>
@@ -204,15 +204,15 @@
                                 <p>Nam mollis felis elementum, placerat dolor id, vehicula libero. Etiam dui nisl, mattis ut rhoncus et, cursus ut diam.</p>
                                 <ul class="font-weight-light">
                                     <li>
-                                        <span class="icn"><i class="fas fa-mobile-alt"></i></span>
+                                        <span class="icn"><em class="fas fa-mobile-alt"></em></span>
                                         <span class="lbl">Tel:</span> <a href="#">010-020-0340</a>
                                     </li>
                                     <li>
-                                        <span class="icn"><i class="fas fa-at"></i></span>
+                                        <span class="icn"><em class="fas fa-at"></em></span>
                                         <span class="lbl">Email:</span> <a href="#">info@dekeukenboer.com</a>
                                     </li>
                                     <li>
-                                        <span class="icn"><i class="fas fa-globe-asia"></i></span>
+                                        <span class="icn"><em class="fas fa-globe-asia"></em></span>
                                         <span class="lbl">URL:</span> <a href="#">www.dekeukenboer.com</a>
                                     </li>
                                 </ul>
@@ -222,9 +222,8 @@
                             <!-- Map -->
                             <div class="map-outer tm-mb-40">
                                 <div class="gmap-canvas">
-                                    <iframe width="100%" height="400" id="gmap-canvas"
-                                        src="https://maps.google.com/maps?q=roc tilburg, kasteeldreef122&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                                    <iframe width="100%" height="400" id="gmap-canvas" title="google maps"
+                                        src="https://maps.google.com/maps?q=roc tilburg, kasteeldreef122&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
                                 </div>
                             </div>
                         </div>
