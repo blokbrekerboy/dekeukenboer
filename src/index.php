@@ -185,13 +185,13 @@
                             <div class="form tm-contact-item-inner">
                                 <form action="handlemessage.php" method="POST">
                                     <div class="form-group">
-                                        <input name="name" type="text" class="form-control" placeholder="Name">
+                                        <label><input name="name" type="text" class="form-control" placeholder="Name"></label>
                                     </div>
                                     <div class="form-group">
-                                        <input name="email" type="text" class="form-control" placeholder="Email">
+                                        <label><input name="email" type="text" class="form-control" placeholder="Email"></label>
                                     </div>
                                     <div class="form-group">
-                                        <textarea name="message" class="textarea form-control" placeholder="Message"></textarea>
+                                        <label><textarea name="message" class="textarea form-control" placeholder="Message"></textarea></label>
                                     </div>
                                     <div class="form-group text-right">
                                         <input type="submit" class="btn btn-primary" value="Send it">
